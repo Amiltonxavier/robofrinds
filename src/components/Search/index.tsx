@@ -6,7 +6,7 @@ type SearchProps = {
 }
 export  function Search({onSearch}: SearchProps) {
   return (
-  <div className="rounded px-2 bg-white/80 border-2  shadow-md flex items-center gap-2 focus-visible:border-emerald-400 focus-visible:scale-125 duration-100 translate-x-2" 
+  <div className="rounded px-2 bg-white/80 border-2  shadow-md flex items-center gap-2 focus-within:ring-2 focus-within:ring-emerald-400 focus-visible:scale-125 duration-100 translate-x-2" 
     title="search"  
     >
         <SearchIcon className="size-6 text-emerald-400" />
